@@ -1,406 +1,93 @@
-Contribution: 2021-04-22 20:00
+<h1 align="center">
 
-Contribution: 2021-04-22 20:01
+<br>
 
-Contribution: 2021-04-22 20:02
+<img src="https://user-images.githubusercontent.com/46969484/143662399-baaa3db0-12fa-4455-9c0c-56b7c5f96552.png" width="100%" />
 
-Contribution: 2021-04-22 20:03
+<br>
 
-Contribution: 2021-04-22 20:04
+<br>
 
-Contribution: 2021-04-22 20:05
+Fullstack Next.js E-commerce
 
-Contribution: 2021-04-22 20:06
+</h1>
 
-Contribution: 2021-04-22 20:07
+## Technologies 🔧
 
-Contribution: 2021-04-22 20:08
+- Next.js(React)
+- TypeScript
+- Prisma
+- NextAuth
+- Stripe
+- Tailwind
+- React Query
+- Sentry
+- Yup
 
-Contribution: 2021-04-23 20:00
+## Screenshots 📸
 
-Contribution: 2021-04-23 20:01
+<br>
 
-Contribution: 2021-04-23 20:02
+<img src="https://user-images.githubusercontent.com/46969484/143662639-de569e93-917c-40d8-b4ff-efbd6e6e82f3.png" width="100%" />
 
-Contribution: 2021-04-23 20:03
+<br>
 
-Contribution: 2021-04-23 20:04
+<img src="https://user-images.githubusercontent.com/46969484/143662647-7fb16f8e-f982-46a3-ad92-e5cd357fe025.png" width="100%" />
 
-Contribution: 2021-04-23 20:05
+<br>
 
-Contribution: 2021-04-23 20:06
+## Code Example/Issues 🔍
 
-Contribution: 2021-04-23 20:07
+If you have any issues, please let me know in the issues section or directly to olafsulich@gmail.com
 
-Contribution: 2021-04-27 20:00
+## Installation 💾
 
-Contribution: 2021-04-27 20:01
+```bash
+git clone https://github.com/olafsulich/fullstack-nextjs-ecommerce.git
+```
 
-Contribution: 2021-04-27 20:02
+Fill your `.env` variables:
 
-Contribution: 2021-04-27 20:03
+```
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+DATABASE_URL="postgresql://<POSTGRES_USER>:<POSTGRES_PASSWORD>@<POSTGRES_HOST>:<POSTGRES_PORT>/<POSTGRES_DB>?schema=public&sslmode=prefer"
+GITHUB_SECRET=
+GITHUB_ID=
+SECRET=
+NEXTAUTH_URL=
+NEXTAUTH_CALLBACK_URL=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_SUCCESS_REDIRECT_URL=
+NEXT_PUBLIC_STRIPE_ERROR_REDIRECT_URL
+```
 
-Contribution: 2021-05-03 20:00
+Install deps:
 
-Contribution: 2021-05-03 20:01
+```bash
+npm install
+```
 
-Contribution: 2021-05-03 20:02
+Generate Prisma Client:
 
-Contribution: 2021-05-03 20:03
+```bash
+npx prisma generate
+```
 
-Contribution: 2021-05-03 20:04
+Run docker-compose:
 
-Contribution: 2021-05-03 20:05
+```bash
+docker-compose up -d
+```
 
-Contribution: 2021-05-03 20:06
+Run Next dev server:
 
-Contribution: 2021-05-03 20:07
+```bash
+npm run dev
+```
 
-Contribution: 2021-05-03 20:08
+## Contributing
 
-Contribution: 2021-05-04 20:00
-
-Contribution: 2021-05-04 20:01
-
-Contribution: 2021-05-04 20:02
-
-Contribution: 2021-05-04 20:03
-
-Contribution: 2021-05-04 20:04
-
-Contribution: 2021-05-05 20:00
-
-Contribution: 2021-05-05 20:01
-
-Contribution: 2021-05-06 20:00
-
-Contribution: 2021-05-06 20:01
-
-Contribution: 2021-05-06 20:02
-
-Contribution: 2021-05-06 20:03
-
-Contribution: 2021-05-07 20:00
-
-Contribution: 2021-05-07 20:01
-
-Contribution: 2021-05-07 20:02
-
-Contribution: 2021-05-07 20:03
-
-Contribution: 2021-05-07 20:04
-
-Contribution: 2021-05-07 20:05
-
-Contribution: 2021-05-07 20:06
-
-Contribution: 2021-05-07 20:07
-
-Contribution: 2021-05-07 20:08
-
-Contribution: 2021-05-10 20:00
-
-Contribution: 2021-05-10 20:01
-
-Contribution: 2021-05-10 20:02
-
-Contribution: 2021-05-10 20:03
-
-Contribution: 2021-05-10 20:04
-
-Contribution: 2021-05-10 20:05
-
-Contribution: 2021-05-10 20:06
-
-Contribution: 2021-05-11 20:00
-
-Contribution: 2021-05-11 20:01
-
-Contribution: 2021-05-11 20:02
-
-Contribution: 2021-05-12 20:00
-
-Contribution: 2021-05-12 20:01
-
-Contribution: 2021-05-13 20:00
-
-Contribution: 2021-05-13 20:01
-
-Contribution: 2021-05-13 20:02
-
-Contribution: 2021-05-21 20:00
-
-Contribution: 2021-05-21 20:01
-
-Contribution: 2021-05-21 20:02
-
-Contribution: 2021-05-21 20:03
-
-Contribution: 2021-05-21 20:04
-
-Contribution: 2021-05-21 20:05
-
-Contribution: 2021-05-21 20:06
-
-Contribution: 2021-05-21 20:07
-
-Contribution: 2021-05-21 20:08
-
-Contribution: 2021-05-22 20:00
-
-Contribution: 2021-05-22 20:01
-
-Contribution: 2021-05-22 20:02
-
-Contribution: 2021-05-22 20:03
-
-Contribution: 2021-05-29 20:00
-
-Contribution: 2021-05-29 20:01
-
-Contribution: 2021-05-29 20:02
-
-Contribution: 2021-05-29 20:03
-
-Contribution: 2021-05-29 20:04
-
-Contribution: 2021-06-01 20:00
-
-Contribution: 2021-06-01 20:01
-
-Contribution: 2021-06-01 20:02
-
-Contribution: 2021-06-01 20:03
-
-Contribution: 2021-06-01 20:04
-
-Contribution: 2021-06-01 20:05
-
-Contribution: 2021-06-05 20:00
-
-Contribution: 2021-06-05 20:01
-
-Contribution: 2021-06-05 20:02
-
-Contribution: 2021-06-05 20:03
-
-Contribution: 2021-06-05 20:04
-
-Contribution: 2021-06-05 20:05
-
-Contribution: 2021-06-05 20:06
-
-Contribution: 2021-06-06 20:00
-
-Contribution: 2021-06-06 20:01
-
-Contribution: 2021-06-07 20:00
-
-Contribution: 2021-06-07 20:01
-
-Contribution: 2021-06-07 20:02
-
-Contribution: 2021-06-07 20:03
-
-Contribution: 2021-06-07 20:04
-
-Contribution: 2021-06-07 20:05
-
-Contribution: 2021-06-07 20:06
-
-Contribution: 2021-06-07 20:07
-
-Contribution: 2021-06-07 20:08
-
-Contribution: 2021-06-08 20:00
-
-Contribution: 2021-06-08 20:01
-
-Contribution: 2021-06-08 20:02
-
-Contribution: 2021-06-08 20:03
-
-Contribution: 2021-06-09 20:00
-
-Contribution: 2021-06-09 20:01
-
-Contribution: 2021-06-09 20:02
-
-Contribution: 2021-06-09 20:03
-
-Contribution: 2021-06-09 20:04
-
-Contribution: 2021-06-09 20:05
-
-Contribution: 2021-06-09 20:06
-
-Contribution: 2021-06-09 20:07
-
-Contribution: 2021-06-10 20:00
-
-Contribution: 2021-06-10 20:01
-
-Contribution: 2021-06-14 20:00
-
-Contribution: 2021-06-19 20:00
-
-Contribution: 2021-06-19 20:01
-
-Contribution: 2021-06-19 20:02
-
-Contribution: 2021-06-19 20:03
-
-Contribution: 2021-06-19 20:04
-
-Contribution: 2021-06-19 20:05
-
-Contribution: 2021-06-19 20:06
-
-Contribution: 2021-06-19 20:07
-
-Contribution: 2021-06-19 20:08
-
-Contribution: 2021-06-19 20:09
-
-Contribution: 2021-06-24 20:00
-
-Contribution: 2021-06-24 20:01
-
-Contribution: 2021-06-24 20:02
-
-Contribution: 2021-06-24 20:03
-
-Contribution: 2021-06-24 20:04
-
-Contribution: 2021-06-26 20:00
-
-Contribution: 2021-06-26 20:01
-
-Contribution: 2021-06-26 20:02
-
-Contribution: 2021-06-26 20:03
-
-Contribution: 2021-06-26 20:04
-
-Contribution: 2021-06-26 20:05
-
-Contribution: 2021-06-26 20:06
-
-Contribution: 2021-06-26 20:07
-
-Contribution: 2021-06-26 20:08
-
-Contribution: 2021-06-26 20:09
-
-Contribution: 2021-06-27 20:00
-
-Contribution: 2021-06-27 20:01
-
-Contribution: 2021-06-27 20:02
-
-Contribution: 2021-06-28 20:00
-
-Contribution: 2021-06-28 20:01
-
-Contribution: 2021-06-29 20:00
-
-Contribution: 2021-06-29 20:01
-
-Contribution: 2021-06-29 20:02
-
-Contribution: 2021-07-02 20:00
-
-Contribution: 2021-07-02 20:01
-
-Contribution: 2021-07-02 20:02
-
-Contribution: 2021-07-02 20:03
-
-Contribution: 2021-07-02 20:04
-
-Contribution: 2021-07-02 20:05
-
-Contribution: 2021-07-02 20:06
-
-Contribution: 2021-07-02 20:07
-
-Contribution: 2021-07-02 20:08
-
-Contribution: 2021-07-02 20:09
-
-Contribution: 2021-07-03 20:00
-
-Contribution: 2021-07-03 20:01
-
-Contribution: 2021-07-03 20:02
-
-Contribution: 2021-07-03 20:03
-
-Contribution: 2021-07-03 20:04
-
-Contribution: 2021-07-03 20:05
-
-Contribution: 2021-07-03 20:06
-
-Contribution: 2021-07-04 20:00
-
-Contribution: 2021-07-08 20:00
-
-Contribution: 2021-07-12 20:00
-
-Contribution: 2021-07-12 20:01
-
-Contribution: 2021-07-12 20:02
-
-Contribution: 2021-07-15 20:00
-
-Contribution: 2021-07-15 20:01
-
-Contribution: 2021-07-15 20:02
-
-Contribution: 2021-07-15 20:03
-
-Contribution: 2021-07-15 20:04
-
-Contribution: 2021-07-17 20:00
-
-Contribution: 2021-07-17 20:01
-
-Contribution: 2021-07-17 20:02
-
-Contribution: 2021-07-17 20:03
-
-Contribution: 2021-07-21 20:00
-
-Contribution: 2021-07-21 20:01
-
-Contribution: 2021-07-21 20:02
-
-Contribution: 2021-07-21 20:03
-
-Contribution: 2021-07-21 20:04
-
-Contribution: 2021-07-21 20:05
-
-Contribution: 2021-07-21 20:06
-
-Contribution: 2021-07-21 20:07
-
-Contribution: 2021-07-21 20:08
-
-Contribution: 2021-07-22 20:00
-
-Contribution: 2021-07-23 20:00
-
-Contribution: 2021-07-23 20:01
-
-Contribution: 2021-07-23 20:02
-
-Contribution: 2021-07-23 20:03
-
-Contribution: 2021-07-23 20:04
-
-Contribution: 2021-07-23 20:05
-
-Contribution: 2021-07-23 20:06
-
+This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [issues](https://github.com/olafsulich/fullstack-nextjs-ecommerce/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
